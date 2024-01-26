@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  #FFFFFF;
+}
+
+nav{
+    display: flex;
+    height: 15vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-sec{
+    display: flex;
+    list-style: none; 
+}
+
+.header-sec li a{
+    text-decoration: none;
+    padding: 5px 20px;
+    color: black;
+    font-size: 1.3rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#hume{
+    color: red;
+}
+
+#conta{
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+/* main section start  */
+
+main{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+}
+
+.bag-shape{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    height: 100%;
+}
+
+.left{
+    width: 45vw;
+}
+
+.right{
+    width: 62.5vw;
+}
+
+.right h1{
+    font-family: "Oleo Script Swash Caps"; 
+    line-height: 50px;
+    font-size: 3rem;
+}
+
+.right p{
+    line-height: 28px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btu{
+    background: #011627;
+    color: white;
+    padding: 7px 13px;
+    margin-top:18px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+}
+
+.btu:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+#hero-img{
+    position: absolute;
+    top: 22%;
+    left: 14px;
+}
+
+#plate{
+    height: 80px;
+    width: 350px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px rgb(255, 255, 255);
+    border-radius: 100%;
+    position: absolute;
+    left: 4%;
+    z-index: -1;
+    bottom: 143px;
+}
